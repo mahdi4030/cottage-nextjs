@@ -1,0 +1,44 @@
+{
+	"DEFAULT": [
+		{
+			"path": "/onboarding/start",
+			"requiredFields": {}
+		},
+		{
+			"path": "/onboarding/address",
+			"requiredFields": {}
+		},
+		{
+			"path": "/onboarding/service",
+			"requiredFields": {}
+		},
+		{
+			"path": "/onboarding/create-account",
+			"requiredFields": {
+				"NEW": ["resident.firstName", "resident.lastName"],
+				"EXISTING": ["resident.firstName", "resident.lastName"]
+			}
+		}
+	],
+	"PARTNER": [
+		{
+			"path": "/partner",
+			"requiredFields": {}
+		},
+		{
+			"path": "/onboarding/service",
+			"requiredFields": {
+				"": ["accountType"],
+				"NEW": ["resident.startServiceDate"],
+				"EXISTING": []
+			}
+		},
+		{
+			"path": "/onboarding/create-account",
+			"requiredFields": {
+				"NEW": ["resident.firstName", "resident.lastName"],
+				"EXISTING": ["resident.firstName", "resident.lastName"]
+			}
+		}
+	]
+}

@@ -1,0 +1,36 @@
+.home-banner {
+	background: url("../../img/external/home-banner.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media (max-width: 1000px) {
+	.home-banner {
+		background-position: top;
+	}
+}
+
+@media (max-width: 767px) {
+	.home-banner {
+		background: none;
+	}
+}
+
+.svg-drop-shadow {
+	filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.1)) drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.18));
+}
+
+.move-up-and-down {
+	animation: MoveUpDown 2.5s linear infinite;
+	position: absolute;
+}
+
+@keyframes MoveUpDown {
+	0%,
+	100% {
+		top: 60px;
+	}
+	50% {
+		top: 70px;
+	}
+}

@@ -1,0 +1,83 @@
+@import "../../../assets/scss/variables";
+
+.inputGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .small {
+    width: 50% !important
+  }
+}
+
+.input-icon {
+  padding-right: 0.5rem;
+  margin-top: 1rem;
+
+  svg {
+    width: 48px;
+    height: 100%;
+  }
+}
+
+.inputControl {
+  height: 3.2rem;
+  position: relative;
+  width: 100%;
+  background-color: white;
+  margin-bottom: .5rem;
+  border-radius: .5rem;
+
+  input, label {
+    cursor: text;
+    font-size: 1.125rem;
+    position: absolute;
+    transition: all 0.2s ease;
+    width: 100%;
+    flex: 1 1 auto;
+  }
+
+  input {
+    border: 1px solid $border;
+    border-radius: .5rem;
+    height: 3.2rem;
+    padding: 1rem 1rem 0;
+    outline: none;
+    color: $textblack;
+    z-index: 2;
+
+    &:focus {
+      border-color: $green;
+
+      ~ label {
+        font-size: 0.8rem;
+        position: absolute;
+        margin-top: 16px;
+      }
+    }
+  }
+
+  label {
+    color: #9b9b9b;
+    font-weight: 400;
+    line-height: 0px;
+    padding: 0 1rem;
+    z-index: 3;
+    margin-top: 28px;
+  }
+
+  @media (max-width: 767px) {
+    label {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+.filled {
+  ~ label {
+    font-size: 0.8rem;
+    position: absolute;
+    margin-top: 16px;
+  }
+}

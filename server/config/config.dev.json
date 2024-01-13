@@ -1,0 +1,24 @@
+{
+	"CON_EDISON_DEV": {
+		"SUBSCRIPTION_KEY": "cb559a0c5dad4c5fa3cc136d6e7ab01f",
+		"GBC_URL": "https://apit.coned.com/gbc/v1",
+		"CLIENT_ID": "0oa1aea5fhkAz9oQn0h8",
+		"CLIENT_SECRET": "hQtN9UfYjLB86nQOf6PDi0IAIDwjfdG7SrIRYphP"
+	},
+	"CON_EDISON": {
+		"SUBSCRIPTION_KEY": "57320cf039f245f3a45b2cda0d9e478e",
+		"GBC_URL": "https://api.coned.com/gbc/v1",
+		"CLIENT_ID": "0oawgo5w59g1XHT9N0x7",
+		"CLIENT_SECRET": "VHBXtU_Z6dykWeheF8gwCe2SME9Ihliy19GrNS0k"
+	},
+	"ORU": {
+		"SUBSCRIPTION_KEY": "cb559a0c5dad4c5fa3cc136d6e7ab01f",
+		"GBC_URL": "https://apit.coned.com/gbc/v1",
+		"CLIENT_ID": "0oa1aea5fhkAz9oQn0h8",
+		"CLIENT_SECRET": "hQtN9UfYjLB86nQOf6PDi0IAIDwjfdG7SrIRYphP"
+	},
+	"COM_ED": {
+		"AUTHORIZATION": "Basic Q290dGFnZUVuZXJneTo2MWRkMTMzMy04NzUzLTQ1M2ItYTlmYS0zNjlhNmM0NzJhOTg=",
+		"GBC_URL": "https://stage-soagateway.exeloncorp.com"
+	}
+}

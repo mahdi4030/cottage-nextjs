@@ -1,0 +1,18 @@
+{
+	"CON_EDISON": {
+		"SUBSCRIPTION_KEY": "57320cf039f245f3a45b2cda0d9e478e",
+		"GBC_URL": "https://api.coned.com/gbc/v1",
+		"CLIENT_ID": "0oawgo5w59g1XHT9N0x7",
+		"CLIENT_SECRET": "VHBXtU_Z6dykWeheF8gwCe2SME9Ihliy19GrNS0k"
+	},
+	"ORU": {
+		"SUBSCRIPTION_KEY": "57320cf039f245f3a45b2cda0d9e478e",
+		"GBC_URL": "https://api.coned.com/gbc/v1",
+		"CLIENT_ID": "0oawgo5w59g1XHT9N0x7",
+		"CLIENT_SECRET": "VHBXtU_Z6dykWeheF8gwCe2SME9Ihliy19GrNS0k"
+	},
+	"COM_ED": {
+		"AUTHORIZATION": "Basic Q290dGFnZUVuZXJneTo2ZjM3MmJkYi00OTE1LTQ4M2QtYmUzNC02NjRlYTEzZmZjYTE=",
+		"GBC_URL": "https://soagateway.exeloncorp.com"
+	}
+}
